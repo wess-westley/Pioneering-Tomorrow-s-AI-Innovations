@@ -13,6 +13,7 @@ import random
 import warnings
 warnings.filterwarnings('ignore')
 
+
 # Set page configuration
 st.set_page_config(
     page_title="Smart Agriculture AI",
@@ -32,6 +33,7 @@ st.markdown("""
     }
     .metric-card {
         background-color: #f0f8f0;
+        color:green;
         padding: 1rem;
         border-radius: 10px;
         border-left: 5px solid #2E8B57;
@@ -40,6 +42,7 @@ st.markdown("""
     .success-box {
         background-color: #d4edda;
         border: 1px solid #c3e6cb;
+        color:green;
         border-radius: 5px;
         padding: 1rem;
         margin: 1rem 0;
@@ -48,6 +51,7 @@ st.markdown("""
         background-color: #fff3cd;
         border: 1px solid #ffeaa7;
         border-radius: 5px;
+        color:green;
         padding: 1rem;
         margin: 1rem 0;
     }
@@ -453,5 +457,6 @@ def main():
         """,
         unsafe_allow_html=True
     )
+
 if __name__ == "__main__":
     main()
